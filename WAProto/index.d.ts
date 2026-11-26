@@ -30654,6 +30654,9 @@ export namespace proto {
 
         /** Message rootSecretDistributeMessage */
         rootSecretDistributeMessage?: (proto.Message.IRootSecretDistributeMessage|null);
+
+        /** Message audioStickerMessage */
+        audioStickerMessage?: (proto.Message.IFutureProofMessage|null);
     }
 
     /** Represents a Message. */
@@ -30985,6 +30988,9 @@ export namespace proto {
 
         /** Message rootSecretDistributeMessage. */
         public rootSecretDistributeMessage?: (proto.Message.IRootSecretDistributeMessage|null);
+
+        /** Message audioStickerMessage. */
+        public audioStickerMessage?: (proto.Message.IFutureProofMessage|null);
 
         /**
          * Creates a new Message instance using the specified properties.
@@ -50208,6 +50214,9 @@ export namespace proto {
 
             /** StickerMessage emojis */
             emojis?: (string|null);
+
+            /** StickerMessage audioMessage */
+            audioMessage?: (proto.Message.IAudioMessage|null);
         }
 
         /** Represents a StickerMessage. */
@@ -50284,6 +50293,9 @@ export namespace proto {
 
             /** StickerMessage emojis. */
             public emojis?: (string|null);
+
+            /** StickerMessage audioMessage. */
+            public audioMessage?: (proto.Message.IAudioMessage|null);
 
             /**
              * Creates a new StickerMessage instance using the specified properties.
